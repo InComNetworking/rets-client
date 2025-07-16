@@ -12,6 +12,10 @@
     "request": "^2.87.0",
     "xml2js": "^0.4.19"
   },
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
   "scripts": {
     "prestart": "tsc",
     "test": "node test.js",
