@@ -10,6 +10,7 @@
     "request": "^2.87.0",
     "xml2js": "^0.4.19"
   },
+  "type": "module",
   "exports": {
     "import": "./dist/esm/index.js",
     "require": "./dist/cjs/index.js"
